@@ -1,0 +1,29 @@
+{
+  "type": "panel",
+  "name": "RSS Panel",
+  "id": "rss",
+
+  "skipDataQuery": true,
+
+  "info": {
+    "description": "Grafana panel for rss feeds",
+    "author": {
+      "name": "Grafana Labs",
+      "url": "https://grafana.com"
+    },
+    "logos": {
+      "small": "img/rss.svg",
+      "large": "img/rss.svg"
+    },
+    "keywords": ["RSS Panel"],
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render should render component 1`] = `
+<Fragment>
+  <PanelOptionsGroup
+    title="Feed"
+  >
+    <div
+      className="gf-form"
+    >
+      <FormField
+        inputWidth={25}
+        label="Feed url"
+        labelWidth={6}
+        onBlur={[Function]}
+        onChange={[Function]}
+        value="some/url"
+      />
+    </div>
+  </PanelOptionsGroup>
+</Fragment>
+`;

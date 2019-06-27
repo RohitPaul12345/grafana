@@ -240,6 +240,8 @@
     "redux-observable": "1.1.0",
     "redux-thunk": "2.3.0",
     "reselect": "4.0.0",
+    "rss-parser": "^3.7.1",
+    "rss-to-json": "^1.0.4",
     "rst2html": "github:thoward/rst2html#990cb89",
     "rxjs": "6.4.0",
     "search-query-parser": "1.5.2",
