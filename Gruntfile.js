@@ -1,8 +1,8 @@
-/* jshint node:true */
+// jshint node:true 
 'use strict';
 module.exports = function (grunt) {
 
-  var config = {
+  let config = {
     pkg: grunt.file.readJSON('package.json'),
     baseDir: '.',
     srcDir: 'src',
@@ -20,7 +20,7 @@ module.exports = function (grunt) {
   // Utility function to load plugin settings into config
   function loadConfig(config,path) {
     require('glob').sync('*', {cwd: path}).forEach(function(option) {
-      var key = option.replace(/\.js$/,'');
+      let key = option.replace(/\.js$/,'');
       // If key already exists, extend it. It is your responsibility to avoid naming collisions
       config[key] = config[key] || {};
       grunt.util._.extend(config[key], require(path + option)(config,grunt));
