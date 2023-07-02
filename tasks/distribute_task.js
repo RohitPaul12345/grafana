@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 
   // collect the key and secret from the .aws-config.json file, finish configuring the s3 task
   grunt.registerTask('distribute:load_s3_config', function () {
-    var config = grunt.file.readJSON('.aws-config.json');
+    let config = grunt.file.readJSON('.aws-config.json');
     grunt.config('s3.options', {
       key: config.key,
       secret: config.secret
